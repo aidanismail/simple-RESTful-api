@@ -1,4 +1,3 @@
-```markdown
 # Simple Music Album API
 [![CI/CD Pipeline](https://github.com/aidanismail/simple-RESTful-api/actions/workflows/pipeline.yml/badge.svg)](https://github.com/aidanismail/simple-RESTful-api/actions/workflows/pipeline.yml)
 
@@ -85,4 +84,3 @@ Proyek ini menggunakan GitHub Actions (`.github/workflows/pipeline.yml`) untuk m
 1. **CI (Continuous Integration):** Menjalankan *Unit Testing* secara otomatis menggunakan **Jest & Supertest** untuk memverifikasi fungsionalitas *endpoint* API.
 2. **CS (Continuous Security):** Menjalankan pemindaian keamanan (*Security Scan*) otomatis menggunakan perintah `npm audit` untuk mendeteksi kerentanan pada dependensi aplikasi.
 3. **CD (Continuous Delivery):** Mengeksekusi perintah `docker build` pada tahap akhir untuk memvalidasi bahwa aplikasi sukses dibungkus ke dalam Docker Image tanpa kendala.
-```
